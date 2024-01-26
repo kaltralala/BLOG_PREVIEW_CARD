@@ -1,16 +1,80 @@
 @import url("https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap");
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border;
+}
+
 body {
   background-color: hsl(47, 88%, 63%);
+  padding: 2rem 1rem;
   font-family: Figtree;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 .card {
+  max-width: 400px;
+  background-color: #ffff;
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
   display: grid;
+  box-shadow: 10px 10px 0px black;
 }
+
+.poster {
+  width: 100%;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.learning {
+  width: min-content;
+  background-color: hsl(47, 88%, 63%);
+  font-size: 1rem;
+  padding: 3px 8px;
+  margin: 1.5rem 0 0;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.date {
+  font-size: 1rem;
+  margin: 1rem 0 0;
+}
+
+h1 {
+  margin: 1rem 0;
+}
+
+h1 a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin: 1.5rem 0 1rem;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
